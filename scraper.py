@@ -16,7 +16,7 @@ print root
 root.cssselect("a")
 selectthings = root.cssselect("a")
 print selectthings
-for i in selecthings:
+for i in selectthings:
   print i.text
   print i.attrib['href']
 
