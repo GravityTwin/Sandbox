@@ -8,14 +8,14 @@ print "Hello World"
 myname = "Thomas"
 print myname
 # # Read in a page
-html = scraperwiki.scrape("http://foo.com")
+html = scraperwiki.scrape("https://www.vodafone.co.uk/brands/samsung/galaxy-s7/#Black/32")
 print html
 # # Find something on the page using css selectors
 root = lxml.html.fromstring(html)
 print root
 root.cssselect("div[align='left']")
 selectthings = root.cssselect("div[align='left']")
-urltoscrape = "http://foo.com"
+urltoscrape = "https://www.vodafone.co.uk/brands/samsung/galaxy-s7/#Black/32"
 listylist = ["p1","p2","p3"]
 for blah in listylist:
   print blah
