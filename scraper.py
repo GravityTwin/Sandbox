@@ -13,7 +13,7 @@ print html
 # # Find something on the page using css selectors
 root = lxml.html.fromstring(html)
 print root
-root.cssselect("div[align='left']")
+root.cssselect("div[align='a']")
 selectthings = root.cssselect("a")
 print selectthings
 for i in selecthings:
