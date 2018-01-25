@@ -19,7 +19,7 @@ print selectthings
 for i in selecthings:
   print i.text
   print i.attrib['href']
-print "End of line"
+
 # # Write out to the sqlite database using scraperwiki library
 # scraperwiki.sqlite.save(unique_keys=['name'], data={"name": "susan", "occupation": "software developer"})
 #
