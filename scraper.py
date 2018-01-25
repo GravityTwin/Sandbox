@@ -7,7 +7,7 @@ import scraperwiki
 #
 print "Hello World"
 myname = "Thomas"
-print nymame
+print myname
 # # Read in a page
 html = scraperwiki.scrape("http://foo.com")
 print html
