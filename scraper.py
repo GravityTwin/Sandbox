@@ -4,7 +4,6 @@
 #import the scraperwiki library to store data 
 import scraperwiki
 import lxml.html
-#
 print "Hello World"
 myname = "Thomas"
 print myname
@@ -13,6 +12,7 @@ html = scraperwiki.scrape("http://foo.com")
 print html
 # # Find something on the page using css selectors
 root = lxml.html.fromstring(html)
+print root
 # root.cssselect("div[align='left']")
 #
 # # Write out to the sqlite database using scraperwiki library
