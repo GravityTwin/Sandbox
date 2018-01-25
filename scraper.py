@@ -16,7 +16,11 @@ print root
 root.cssselect("div[align='left']")
 selectthings = root.cssselect("div[align='left']")
 listylist = ["p1","p2","p3"]
+for blah in listylist
+print blah
+fullurl =  urltoscrape+blah
 print listylist
+print fullurl
 # # Write out to the sqlite database using scraperwiki library
 # scraperwiki.sqlite.save(unique_keys=['name'], data={"name": "susan", "occupation": "software developer"})
 #
